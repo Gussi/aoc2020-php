@@ -1,0 +1,21 @@
+{
+    "name": "gussi/aoc2020",
+    "description": "Advent of Code 2020",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "ext-ds": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gussi\\AOC2020\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gunnsteinn Þórisson",
+            "email": "gussi@gussi.is"
+        }
+    ]
+}
