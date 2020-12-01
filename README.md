@@ -1,8 +1,8 @@
-= Advent of Code 2020
+# Advent of Code 2020
 Advent of Code solutions written in PHP
 
-== Setup
+## Setup
 `composer install`
 
-== Solve puzzles
+## Solve puzzles
 `./aoc <day> <part> < input_file.txt`
