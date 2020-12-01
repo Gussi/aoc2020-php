@@ -15,7 +15,7 @@ class Day1
             }
         }
 
-        throw \Exception("Answer not found");
+        throw new \Exception("Answer not found");
     }
 
     public function input(): Set {
@@ -40,6 +40,6 @@ class Day1
             }
         }
 
-        throw \Exception("Answer not found");
+        throw new \Exception("Answer not found");
     }
 }
