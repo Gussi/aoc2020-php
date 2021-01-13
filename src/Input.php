@@ -11,8 +11,8 @@ trait Input {
 
         $this->input = [];
 
-        while ($line = trim(fgets(STDIN))) {
-            $this->input[] = $line;
+        while (!feof(STDIN)) {
+            $this->input[] = trim(fgets(STDIN));
         }
 
         return $this->input;
