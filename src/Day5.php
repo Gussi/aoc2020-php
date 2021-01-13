@@ -5,7 +5,7 @@ class Day5
 {
     use Input;
 
-    public function part1() {
+    public function part1(): int {
         $max = 0;
 
         foreach ($this->input() as $seat) {
@@ -17,7 +17,7 @@ class Day5
         return $max;
     }
 
-    public function part2() {
+    public function part2(): int {
         $taken = [];
 
         foreach ($this->input() as $seat) {
